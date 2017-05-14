@@ -15,6 +15,7 @@ cc_library {
         "-O3",
         "-DUSE_MMAP",
         "-DZLIB_CONST",
+        "-DUNALIGNED_OK",
         "-Wall",
         "-Werror",
     ],
